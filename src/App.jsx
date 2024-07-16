@@ -20,9 +20,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="MyComponent">
       <div className="webviewer" ref={viewer} style={{ height: "100vh" }}></div>
-    </div>
   );
 }
 
