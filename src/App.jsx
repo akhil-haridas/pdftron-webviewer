@@ -15,6 +15,7 @@ const App = () => {
       viewer.current,
     ).then((instance) => {
       const { docViewer } = instance;
+      console.log("DOC_VIEWER::",docViewer)
     });
   }, []);
 
