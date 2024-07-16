@@ -1,5 +1,6 @@
 
-import React from 'react'
+import WebViewer from '@pdftron/webviewer';
+import React, { useEffect, useRef } from 'react'
 
 const App = () => {
   const viewer = useRef(null);
