@@ -1,4 +1,3 @@
-.........
 import WebViewer from '@pdftron/webviewer';
 import React, { useEffect, useRef } from 'react'
 
